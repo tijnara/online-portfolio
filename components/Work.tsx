@@ -13,7 +13,7 @@ export function Work() {
         {/* Project Card 1 */}
         <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
           <div className="w-full h-48 bg-muted rounded-lg overflow-hidden">
-            <img src="https://via.placeholder.com/600x400/18181B/27272A?text=ERP+System" alt="Project Screenshot" className="w-full h-full object-cover" />
+            <img src="/erp.png" alt="Full-Stack Enterprise System" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-xl font-bold text-white">Full-Stack Enterprise System</h3>
           <p className="text-muted-foreground text-sm">Architected a comprehensive ERP system. Built a modern frontend with Next.js, React, and Zustand for managing modules like Sales Orders, Inventory, and HR. The backend is powered by Directus and a MySQL database.</p>
@@ -34,7 +34,7 @@ export function Work() {
         {/* Project Card 2 */}
         <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
           <div className="w-full h-48 bg-muted rounded-lg overflow-hidden">
-            <img src="https://via.placeholder.com/600x400/18181B/27272A?text=Web-Based+POS" alt="Project Screenshot" className="w-full h-full object-cover" />
+            <img src="/pos.png" alt="Web-Based POS System" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-xl font-bold text-white">Web-Based POS System</h3>
           <p className="text-muted-foreground text-sm">A lightweight, web-based Point of Sale (POS) application built with Next.js and React, using Supabase for the backend and Zustand for state management.</p>
@@ -47,9 +47,9 @@ export function Work() {
             <a href="#" target="https://seasidepos.vercel.app/login" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <ExternalLink size={16} /> Live Demo
             </a>
-              <a href="#" target="https://github.com/tijnara/WebBasedPOS" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
-                  <Github size={16} /> View Repository
-              </a>
+            <a href="#" target="https://github.com/tijnara/WebBasedPOS" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+              <Github size={16} /> View Repository
+            </a>
             <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> GitHub
             </a>
@@ -58,7 +58,7 @@ export function Work() {
         {/* Project Card 3 */}
         <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
           <div className="w-full h-48 bg-muted rounded-lg overflow-hidden">
-            <img src="https://via.placeholder.com/600x400/18181B/27272A?text=Attendance+System" alt="Project Screenshot" className="w-full h-full object-cover" />
+            <img src="/attendance.png" alt="Multi-Modal Attendance System" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-xl font-bold text-white">Multi-Modal Attendance System</h3>
           <p className="text-muted-foreground text-sm">Created a web-based attendance system that accepts input from physical hardware like fingerprint scanners and RFID readers. Built a Node.js Hardware Bridge using WebSockets to send data from USB hardware to the web app in real-time, with normalized SQL database for efficient logging.</p>
@@ -79,7 +79,7 @@ export function Work() {
         {/* Project Card 4 */}
         <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
           <div className="w-full h-48 bg-muted rounded-lg overflow-hidden flex items-center justify-center">
-            <img src="https://via.placeholder.com/600x400/18181B/27272A?text=Asset+Manager" alt="Project Screenshot" className="w-full h-full object-cover" />
+            <img src="/assets.png" alt="Asset & Equipment Manager" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-xl font-bold text-white">Asset & Equipment Manager</h3>
           <p className="text-muted-foreground text-sm">
@@ -102,7 +102,7 @@ export function Work() {
         {/* Project Card 5 */}
         <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
           <div className="w-full h-48 bg-muted rounded-lg overflow-hidden flex items-center justify-center">
-            <img src="https://via.placeholder.com/600x400/18181B/27272A?text=HR+User+Manager" alt="Project Screenshot" className="w-full h-full object-cover" />
+            <img src="/user.png" alt="User Manager" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-xl font-bold text-white">User Manager</h3>
           <p className="text-muted-foreground text-sm">
