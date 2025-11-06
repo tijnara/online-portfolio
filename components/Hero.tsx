@@ -1,6 +1,6 @@
 "use client";
 
-import { Linkedin, Github, Mail, Send } from 'lucide-react';
+import { Github, Mail, Send } from 'lucide-react';
 
 export function Hero() {
     return (
@@ -33,14 +33,6 @@ export function Hero() {
                         className="text-muted-foreground hover:text-primary transition-colors"
                     >
                         <Github size={24} />
-                    </a>
-                    <a
-                        href="#" // TODO: Add your LinkedIn URL
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                        <Linkedin size={24} />
                     </a>
                     <a
                         href="mailto:aranjitarchita@gmail.com"

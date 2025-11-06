@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -10,9 +10,6 @@ export function Footer() {
         <div className="flex gap-5">
           <a href="https://github.com/tijnara" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Github size={24} />
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-            <Linkedin size={24} />
           </a>
           <a href="mailto:aranjitarchita@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
             <Mail size={24} />
