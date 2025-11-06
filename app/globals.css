@@ -74,4 +74,5 @@
 /* ... rest of the base styles from the source file */
 html {
   font-size: var(--font-size);
+  scroll-behavior: smooth;
 }
