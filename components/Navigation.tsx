@@ -1,41 +1,36 @@
-import { Briefcase, MessageSquare, Home, User, Lightbulb, Mail } from 'lucide-react';
+import { Briefcase, MessageSquare, Home, User, Lightbulb, Send } from 'lucide-react';
 
 export function Navigation() {
   return (
-    <nav className="w-full flex items-center justify-between py-6 px-8 border-b border-border bg-white sticky top-0 z-50">
-      <span className="font-bold text-xl text-primary">Aranjit D. Archita</span>
-      <ul className="flex gap-8 text-base text-foreground">
+    <nav className="w-full flex items-center justify-between py-5 px-8 sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b border-border">
+      <span className="font-bold text-xl text-white">Aranjit D. Archita</span>
+      <ul className="flex gap-6 text-base text-muted-foreground">
         <li>
-          <a href="#home" className="flex items-center gap-2 hover:text-orange-500 transition-colors">
-            <Home size={18} /> Home
+          <a href="#home" className="hover:text-primary transition-colors">
+            Home
           </a>
         </li>
         <li>
-          <a href="#about" className="flex items-center gap-2 hover:text-orange-500 transition-colors">
-            <User size={18} /> About
+          <a href="#about" className="hover:text-primary transition-colors">
+            Journey
           </a>
         </li>
         <li>
-          <a href="#skills" className="flex items-center gap-2 hover:text-orange-500 transition-colors">
-            <Lightbulb size={18} /> Skills
+          <a href="#skills" className="hover:text-primary transition-colors">
+            Skills
           </a>
         </li>
         <li>
-          <a href="#projects" className="flex items-center gap-2 hover:text-orange-500 transition-colors">
-            <Briefcase size={18} /> Projects
-          </a>
-        </li>
-        <li>
-          <a href="#contact" className="flex items-center gap-2 hover:text-orange-500 transition-colors">
-            <MessageSquare size={18} /> Contact
+          <a href="#projects" className="hover:text-primary transition-colors">
+            Projects
           </a>
         </li>
       </ul>
       <a
         href="#contact"
-        className="bg-orange-500 text-white px-4 py-2 rounded-md font-medium flex items-center gap-2 hover:bg-orange-600 transition-colors"
+        className="bg-primary text-primary-foreground px-4 py-2 rounded-lg font-medium flex items-center gap-2 hover:bg-primary/90 transition-colors"
       >
-        <Mail size={18} />
+        <Send size={18} />
         Hire Me
       </a>
     </nav>

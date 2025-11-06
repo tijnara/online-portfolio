@@ -1,56 +1,55 @@
-import { Download, Github } from 'lucide-react';
+import { Briefcase, Download, Github } from 'lucide-react';
 
 export function About() {
   return (
-    <section id="about" className="py-16 text-center">
-      <h2 className="text-3xl font-bold mb-2">About <span className="text-orange-500">Me</span></h2>
-      <p className="mb-6 text-muted-foreground">From IT support to full-stack development: building the engines that power applications</p>
-      <div className="flex justify-center gap-4 mb-8"></div>
-      <div className="flex flex-col md:flex-row gap-8 max-w-5xl mx-auto text-left">
-        <div className="flex-1">
-          <h3 className="text-xl font-semibold mb-4">My Journey</h3>
-          <p className="mb-4">My career began in IT and Technical Support, where I developed a methodical approach to problem-solving and learned how systems work from the ground up. This foundation taught me to think systematically about how different components interact and how to diagnose issues efficiently.</p>
-          <p className="mb-4">What drives me as a developer is my passion for the backend—the &quot;engine&quot; of an application. I love designing databases, architecting the logic that makes everything work, and building the APIs that connect it all together. While I&apos;m proficient across the full stack, I find the most satisfaction in creating robust, well-structured backend systems.</p>
-          <p className="mb-4">I specialize in building full-stack enterprise applications using <span className="font-semibold">Next.js</span>, <span className="font-semibold">React</span>, <span className="font-semibold">Vue.js</span>, and <span className="font-semibold">Node.js</span>. My expertise lies in designing and optimizing <span className="font-semibold">SQL databases</span> (MySQL) and architecting APIs with services like <span className="font-semibold">Directus</span> and <span className="font-semibold">Supabase</span>. Whether it&apos;s building real-time attendance systems with hardware integration or architecting comprehensive ERP systems, I bring both technical skill and creative problem-solving to every project.</p>
-          <div className="flex gap-4 mt-6">
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-orange-500 text-white px-4 py-2 rounded-md font-medium flex items-center gap-2 hover:bg-orange-600 transition-colors"
-            >
-              <Download size={18} />
-              View Resume
-            </a>
-            <a
-              href="https://github.com/tijnara"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 rounded-md border font-medium flex items-center gap-2 hover:bg-accent transition-colors"
-            >
-              <Github size={18} />
-              GitHub
-            </a>
-          </div>
+    <section id="about" className="py-20 border-b border-border">
+      {/* Section Header */}
+      <div className="flex items-center gap-3 mb-8">
+        <Briefcase size={28} className="text-primary" />
+        <h2 className="text-3xl font-bold text-white">Professional Journey</h2>
+      </div>
+      <div className="flex flex-col md:flex-row gap-12">
+        {/* Left Column: Text (from your original) */}
+        <div className="flex-1 space-y-4 text-lg text-foreground leading-relaxed">
+          <p>My career began in IT and Technical Support, where I developed a methodical approach to problem-solving and learned how systems work from the ground up. This foundation taught me to think systematically about how different components interact and how to diagnose issues efficiently.</p>
+          <p>What drives me as a developer is my passion for the backend—the &quot;engine&quot; of an application. I love designing databases, architecting the logic that makes everything work, and building the APIs that connect it all together. While I&apos;m proficient across the full stack, I find the most satisfaction in creating robust, well-structured backend systems.</p>
         </div>
-        <div className="flex-1 grid grid-cols-2 gap-4">
-          <div className="bg-white border rounded-lg p-4">
-            <h4 className="text-orange-500 font-semibold mb-2">Backend Architecture</h4>
+        {/* Right Column: Key Skills (from your original, re-styled as glass cards) */}
+        <div className="flex-1 grid grid-cols-1 gap-4">
+          <div className="bg-card-glass backdrop-blur-md border border-card-glass-border rounded-lg p-4">
+            <h4 className="text-primary font-semibold mb-1">Backend Architecture</h4>
             <p className="text-sm text-muted-foreground">Building robust APIs and designing efficient database schemas</p>
           </div>
-          <div className="bg-white border rounded-lg p-4">
-            <h4 className="text-orange-500 font-semibold mb-2">Enterprise Systems</h4>
+          <div className="bg-card-glass backdrop-blur-md border border-card-glass-border rounded-lg p-4">
+            <h4 className="text-primary font-semibold mb-1">Enterprise Systems</h4>
             <p className="text-sm text-muted-foreground">Architecting ERP, POS, and HR applications from the ground up</p>
           </div>
-          <div className="bg-white border rounded-lg p-4">
-            <h4 className="text-orange-500 font-semibold mb-2">System Integration</h4>
+          <div className="bg-card-glass backdrop-blur-md border border-card-glass-border rounded-lg p-4">
+            <h4 className="text-primary font-semibold mb-1">System Integration</h4>
             <p className="text-sm text-muted-foreground">Connecting hardware with web applications via WebSockets and APIs</p>
           </div>
-          <div className="bg-white border rounded-lg p-4">
-            <h4 className="text-orange-500 font-semibold mb-2">Problem Solving</h4>
-            <p className="text-sm text-muted-foreground">Methodical approach honed through IT support and technical troubleshooting</p>
-          </div>
         </div>
+      </div>
+      {/* Buttons (from your original, re-styled) */}
+      <div className="flex gap-4 mt-10">
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-primary text-primary-foreground px-4 py-2 rounded-lg font-medium flex items-center gap-2 hover:bg-primary/90 transition-colors"
+        >
+          <Download size={18} />
+          View Resume
+        </a>
+        <a
+          href="https://github.com/tijnara"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 rounded-lg font-medium flex items-center gap-2 bg-card-glass text-foreground border border-card-glass-border backdrop-blur-md hover:bg-white/20 transition-colors"
+        >
+          <Github size={18} />
+          GitHub
+        </a>
       </div>
     </section>
   );

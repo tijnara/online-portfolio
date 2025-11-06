@@ -8,23 +8,39 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        border: "rgba(0,0,0,0.1)",
-        background: "#ffffff",
-        foreground: "#232323",
-        primary: "#030213",
-        'primary-foreground': "#fff",
-        secondary: "#ececf0",
-        'secondary-foreground': "#030213",
-        muted: "#ececf0",
-        'muted-foreground': "#717182",
-        accent: "#e9ebef",
-        'accent-foreground': "#030213",
-        destructive: "#d4183d",
-        'destructive-foreground': "#fff",
-        ring: "#b3b3b3",
+        border: 'var(--border)',
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        primary: {
+          DEFAULT: 'var(--primary)',
+          foreground: 'var(--primary-foreground)',
+        },
+        secondary: {
+          DEFAULT: 'var(--secondary)',
+          foreground: 'var(--secondary-foreground)',
+        },
+        muted: {
+          DEFAULT: 'var(--muted)',
+          foreground: 'var(--muted-foreground)',
+        },
+        // Define card styles
+        card: {
+          solid: 'var(--card-solid-bg)',
+          'solid-border': 'var(--card-solid-border)',
+          glass: 'var(--card-glass-bg)',
+          'glass-border': 'var(--card-glass-border)',
+        }
       },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      // Add blur for the glass effect
+      backdropBlur: {
+        'md': '12px',
+      }
     },
   },
   plugins: [],
 };
-
