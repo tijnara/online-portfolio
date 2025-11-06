@@ -23,10 +23,10 @@ export function Work() {
             ))}
           </div>
           <div className="flex gap-4 mt-auto pt-4">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
-              <ExternalLink size={16} /> Live Demo
+            <a href="#" target="https://github.com/tijnara/erp-web_xxxxxxx_divi" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+              <ExternalLink size={16} /> View Repository
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> GitHub
             </a>
           </div>
@@ -44,10 +44,13 @@ export function Work() {
             ))}
           </div>
           <div className="flex gap-4 mt-auto pt-4">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="#" target="https://seasidepos.vercel.app/login" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <ExternalLink size={16} /> Live Demo
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+              <a href="#" target="https://github.com/tijnara/WebBasedPOS" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+                  <Github size={16} /> View Repository
+              </a>
+            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> GitHub
             </a>
           </div>
@@ -65,10 +68,56 @@ export function Work() {
             ))}
           </div>
           <div className="flex gap-4 mt-auto pt-4">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
-              <ExternalLink size={16} /> Live Demo
+            <a href="#" target="https://github.com/tijnara/attendance-system-vue-modern" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+              <ExternalLink size={16} /> View Repository
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+              <Github size={16} /> GitHub
+            </a>
+          </div>
+        </div>
+        {/* Project Card 4 */}
+        <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
+          <div className="w-full h-48 bg-muted rounded-lg overflow-hidden flex items-center justify-center">
+            <img src="https://via.placeholder.com/600x400/18181B/27272A?text=Asset+Manager" alt="Project Screenshot" className="w-full h-full object-cover" />
+          </div>
+          <h3 className="text-xl font-bold text-white">Asset & Equipment Manager</h3>
+          <p className="text-muted-foreground text-sm">
+            Full-stack web application for managing assets and equipment. Node.js backend with Express and MySQL provides a REST API for CRUD operations and search. The frontend is built with HTML, CSS, and vanilla JavaScript, featuring a form for asset entry, a searchable table, and full asset management capabilities.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {["Node.js","Express","MySQL","HTML","CSS","JavaScript"].map((tag) => (
+              <span key={tag} className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-xs font-semibold">{tag}</span>
+            ))}
+          </div>
+          <div className="flex gap-4 mt-auto pt-4">
+            <a href="#" target="https://github.com/tijnara/VERTEX-ER_asset_and_equipments" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+              <ExternalLink size={16} /> View Repository
+            </a>
+            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+              <Github size={16} /> GitHub
+            </a>
+          </div>
+        </div>
+        {/* Project Card 5 */}
+        <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
+          <div className="w-full h-48 bg-muted rounded-lg overflow-hidden flex items-center justify-center">
+            <img src="https://via.placeholder.com/600x400/18181B/27272A?text=HR+User+Manager" alt="Project Screenshot" className="w-full h-full object-cover" />
+          </div>
+          <h3 className="text-xl font-bold text-white">User Manager</h3>
+          <p className="text-muted-foreground text-sm">
+            Full-stack HR user management module for VERTEX-ER. Node.js backend with Express and MySQL provides REST API endpoints for CRUD operations and user search. The frontend uses HTML, CSS, and vanilla JavaScript, featuring a dynamic form for employee data (with cascading Philippine address dropdowns) and a searchable user list table. Includes edit and delete actions for user records.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {["Node.js","Express","MySQL","HTML","CSS","JavaScript"].map((tag) => (
+              <span key={tag} className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-xs font-semibold">{tag}</span>
+            ))}
+          </div>
+          <div className="flex gap-4 mt-auto pt-4">
+            <a href="#" target="https://github.com/tijnara/VERTEX-ER_HR-users" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+              <ExternalLink size={16} /> View Repository
+            </a>
+            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> GitHub
             </a>
           </div>
