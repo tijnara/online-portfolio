@@ -68,10 +68,13 @@ export function Work() {
             ))}
           </div>
           <div className="flex gap-4 mt-auto pt-4">
-            <a href="#" target="https://github.com/tijnara/attendance-system-vue-modern" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://attendance-system-vue-modern.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+              <ExternalLink size={16} /> Live
+            </a>
+            <a href="https://github.com/tijnara/attendance-system-vue-modern" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <ExternalLink size={16} /> View Repository
             </a>
-            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://github.com/tijnara" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> GitHub
             </a>
           </div>
