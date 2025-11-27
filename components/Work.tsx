@@ -23,10 +23,10 @@ export function Work() {
             ))}
           </div>
           <div className="flex gap-4 mt-auto pt-4">
-            <a href="#" target="https://github.com/tijnara/erp-web_xxxxxxx_divi" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://github.com/tijnara/erp-web" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <ExternalLink size={16} /> View Repository
             </a>
-            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://github.com/tijnara" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> GitHub
             </a>
           </div>
@@ -94,10 +94,10 @@ export function Work() {
             ))}
           </div>
           <div className="flex gap-4 mt-auto pt-4">
-            <a href="#" target="https://github.com/tijnara/VERTEX-ER_asset_and_equipments" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://github.com/tijnara/VERTEX-ER_asset_and_equipments" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <ExternalLink size={16} /> View Repository
             </a>
-            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://github.com/tijnara" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> GitHub
             </a>
           </div>
@@ -117,10 +117,10 @@ export function Work() {
             ))}
           </div>
           <div className="flex gap-4 mt-auto pt-4">
-            <a href="#" target="https://github.com/tijnara/VERTEX-ER_HR-users" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://github.com/tijnara/VERTEX-ER_HR-users" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <ExternalLink size={16} /> View Repository
             </a>
-            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://github.com/tijnara" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> GitHub
             </a>
           </div>
