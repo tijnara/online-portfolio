@@ -47,10 +47,10 @@ export function Work() {
             <a href="https://seasidepos-em3x20ce1-aranjitarchita-1188s-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <ExternalLink size={16} /> Live Demo
             </a>
-            <a href="#" target="https://github.com/tijnara/WebBasedPOS" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://github.com/tijnara/WebBasedPOS" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> View Repository
             </a>
-            <a href="#" target="https://github.com/tijnara" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://github.com/tijnara" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <Github size={16} /> GitHub
             </a>
           </div>
