@@ -44,7 +44,7 @@ export function Work() {
             ))}
           </div>
           <div className="flex gap-4 mt-auto pt-4">
-            <a href="https://seasidepos-em3x20ce1-aranjitarchita-1188s-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+            <a href="https://seasidepos.vercel.app/login" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
               <ExternalLink size={16} /> Live Demo
             </a>
             <a href="https://github.com/tijnara/WebBasedPOS" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
