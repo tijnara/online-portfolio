@@ -18,24 +18,28 @@ import {
     SiMysql,
     SiDirectus,
     SiSupabase,
+    SiPhp,
+    SiPostgresql,
+    SiDocker,
+    SiGit
 } from 'react-icons/si';
 
-// Your skill list
+// Your skill list updated to match the new resume
 const skillsList = [
     'Next.js',
-    'React',
     'Vue.js',
+    'React',
     'Tailwind CSS',
     'Node.js',
-    'WebSockets',
-    'MySQL',
-    'SQL',
+    'PHP',
     'Directus',
-    'Supabase',
-    'Enterprise Architecture',
+    'SQL',
+    'MySQL',
+    'PostgreSQL',
+    'Docker',
+    'Git',
+    'RESTful APIs',
     'System Integration',
-    'API Design',
-    'IT Support',
 ];
 
 // A helper map to assign icons.
@@ -46,16 +50,20 @@ const iconMap: { [key: string]: React.ElementType } = {
     'Vue.js': SiVuedotjs,
     'Tailwind CSS': SiTailwindcss,
     'Node.js': SiNodedotjs,
+    PHP: SiPhp,
     MySQL: SiMysql,
+    PostgreSQL: SiPostgresql,
     Directus: SiDirectus,
     Supabase: SiSupabase,
+    Docker: SiDocker,
+    Git: SiGit,
 
     // Descriptive Icons from lucide-react
     WebSockets: Cable,
     SQL: Database,
     'Enterprise Architecture': Building,
     'System Integration': Combine,
-    'API Design': Network,
+    'RESTful APIs': Network,
     'IT Support': Wrench,
 };
 
@@ -79,8 +87,8 @@ export function Skills() {
                         >
                             <Icon className="w-10 h-10 text-primary" />
                             <span className="text-foreground text-sm font-medium text-center">
-                {item}
-              </span>
+                                {item}
+                            </span>
                         </div>
                     );
                 })}

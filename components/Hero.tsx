@@ -22,7 +22,7 @@ export function Hero() {
 
                 <h1 className="text-4xl font-bold text-white">Aranjit D. Archita</h1>
                 <p className="text-xl text-primary font-medium mt-1">Full-Stack Developer</p>
-                <p className="text-muted-foreground mt-2">Lingayen, Pangasinan</p>
+                <p className="text-muted-foreground mt-2">Baay Lingayen, Pangasinan</p>
 
                 {/* Social Links */}
                 <div className="flex gap-4 mt-6">
@@ -58,11 +58,11 @@ export function Hero() {
                     My career began in IT and Technical Support, where I developed a methodical approach to problem-solving and learned how systems work from the ground up. This foundation taught me to think systematically about how different components interact and how to diagnose issues efficiently.
                 </p>
                 <p className="text-lg text-foreground leading-relaxed mt-4">
-                    I specialize in building full-stack enterprise applications using{' '}
+                    I am a results-oriented Full-Stack Developer with hands-on experience in the end-to-end development lifecycle. My expertise lies in building and refactoring complex enterprise systems using{' '}
                     <strong className="text-white">Next.js</strong>,{' '}
-                    <strong className="text-white">React</strong>,{' '}
-                    <strong className="text-white">Vue.js</strong>, and{' '}
-                    <strong className="text-white">Node.js</strong>. My expertise lies in designing and optimizing SQL databases (MySQL) and architecting APIs with services like Directus and Supabase.
+                    <strong className="text-white">Vue.js</strong>,{' '}
+                    <strong className="text-white">Directus</strong>, and{' '}
+                    <strong className="text-white">SQL</strong>. I excel in system architecture, API integration, and database design, with a collaborative mindset focused on delivering efficient and scalable web solutions.
                 </p>
             </div>
         </section>
