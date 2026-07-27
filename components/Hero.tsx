@@ -13,7 +13,7 @@ export function Hero() {
                     aria-label="Profile photo"
                 >
                     <img
-                        src="/tijnara.png"
+                        src="/aranjit_A-clean.png"
                         alt="Aranjit D. Archita profile"
                         className="w-full h-full object-center object-cover rounded-full"
                         style={{ objectFit: 'cover', objectPosition: 'center' }}
@@ -22,7 +22,11 @@ export function Hero() {
 
                 <h1 className="text-4xl font-bold text-white">Aranjit D. Archita</h1>
                 <p className="text-xl text-primary font-medium mt-1">Full-Stack Developer</p>
-                <p className="text-muted-foreground mt-2">Baay Lingayen, Pangasinan</p>
+                <div className="text-muted-foreground mt-2 flex items-center gap-2">
+                    <span>Baay Lingayen, Pangasinan</span>
+                    <span className="text-xs text-border">|</span>
+                    <span>Mambugan, Antipolo City</span>
+                </div>
 
                 {/* Social Links */}
                 <div className="flex gap-4 mt-6">

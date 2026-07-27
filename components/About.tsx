@@ -23,15 +23,15 @@ export function About() {
           <div className="flex-1 grid grid-cols-1 gap-4">
             <div className="bg-card-glass backdrop-blur-md border border-card-glass-border rounded-lg p-4">
               <h4 className="text-primary font-semibold mb-1">System Architecture</h4>
-              <p className="text-sm text-muted-foreground">Building robust RESTful APIs and designing efficient, normalized SQL schemas.</p>
+              <p className="text-sm text-muted-foreground">Architected RESTful APIs and optimized SQL databases for enterprise platforms—ERP, POS, Business Management Systems and procurement systems handling high-volume transactions.</p>
             </div>
             <div className="bg-card-glass backdrop-blur-md border border-card-glass-border rounded-lg p-4">
-              <h4 className="text-primary font-semibold mb-1">Enterprise Systems</h4>
-              <p className="text-sm text-muted-foreground">Architecting ERP, POS, and modular management applications from the ground up.</p>
+              <h4 className="text-primary font-semibold mb-1">Enterprise Application Frameworks</h4>
+              <p className="text-sm text-muted-foreground">Building comprehensive ERP, POS, Business Management Systems and HR management systems with modular architecture—designed for extensibility across employee management, asset tracking, procurement workflows, and order processing.</p>
             </div>
             <div className="bg-card-glass backdrop-blur-md border border-card-glass-border rounded-lg p-4">
               <h4 className="text-primary font-semibold mb-1">System Integration</h4>
-              <p className="text-sm text-muted-foreground">Connecting hardware with web applications via WebSockets and real-time APIs.</p>
+              <p className="text-sm text-muted-foreground">Full-stack enterprise systems architecture—from RESTful backends managing inventory, procurement, and HR workflows to real-time dashboards. Event-driven synchronization ensures consistency across simultaneous operations (transactions, stock updates, attendance records) in high-concurrency environments.</p>
             </div>
           </div>
         </div>
@@ -71,8 +71,8 @@ export function About() {
                   <div className="flex items-center gap-2">
                     {/* Fallback download button inside the modal just in case */}
                     <a
-                        href="/Archita_Aranjit_Resume_Dev(B).pdf"
-                        download="Archita_Aranjit_Resume_Dev(B).pdf"
+                        href="/(B)Archita_Aranjit_Resume_ITSpecialist.pdf"
+                        download="Archita_Aranjit_Resume_ITSpecialist.pdf"
                         className="px-3 py-1.5 text-sm bg-primary/10 text-primary hover:bg-primary/20 rounded-md font-medium transition-colors"
                     >
                       Download PDF
@@ -90,7 +90,7 @@ export function About() {
                 {/* Modal Body / PDF Viewer */}
                 <div className="flex-1 w-full bg-zinc-100">
                   <iframe
-                      src="/Archita_Aranjit_Resume_Dev(B).pdf#toolbar=0"
+                      src="/(B)Archita_Aranjit_Resume_ITSpecialist.pdf#toolbar=0"
                       className="w-full h-full border-none"
                       title="Resume PDF"
                   />
