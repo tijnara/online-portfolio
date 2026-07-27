@@ -16,14 +16,15 @@ export function About() {
         <div className="flex flex-col md:flex-row gap-12">
           {/* Left Column: Text */}
           <div className="flex-1 space-y-4 text-lg text-foreground leading-relaxed">
-            <p>My career began in IT and Technical Support, where I developed a methodical approach to problem-solving and learned how systems work from the ground up. This foundation taught me to think systematically about how different components interact and how to diagnose issues efficiently.</p>
-            <p>What drives me as a developer is my passion for the backend—the &quot;engine&quot; of an application. I love designing databases, architecting the logic that makes everything work, and building the APIs that connect it all together. While I&apos;m proficient across the full stack, I find the most satisfaction in creating robust, well-structured backend systems.</p>
+            <p>My career trajectory—from IT and Technical Support through modern full-stack development—shaped how I architect systems at scale. Those early years troubleshooting networks and infrastructure taught me that robust systems don't just work; they're designed to work reliably. I developed a methodical, systems-thinking approach that carries through every line of code I write today.</p>
+            <p>What drives me is solving real business problems through backend engineering. My portfolio demonstrates this across enterprise applications: designing normalized SQL schemas and RESTful APIs for ERP and POS systems, Business Management Systems, architecting procurement and HR management platforms. I've learned that the most elegant backend is invisible—it handles complexity silently while the frontend shines.</p>
+            <p>While I'm fluent across the full stack (TypeScript, Vue, Next.js, JavaScript), I find the greatest satisfaction in the systems layer: database architecture, API design, business logic that scales, and the infrastructure that ties it all together. That's where I deliver the most impact—building the engine that makes everything else possible.</p>
           </div>
           {/* Right Column: Key Skills */}
           <div className="flex-1 grid grid-cols-1 gap-4">
             <div className="bg-card-glass backdrop-blur-md border border-card-glass-border rounded-lg p-4">
               <h4 className="text-primary font-semibold mb-1">System Architecture</h4>
-              <p className="text-sm text-muted-foreground">Architected RESTful APIs and optimized SQL databases for enterprise platforms—ERP, POS, Business Management Systems and procurement systems handling high-volume transactions.</p>
+              <p className="text-sm text-muted-foreground">Architected RESTful APIs and optimized SQL databases for enterprise platforms—ERP, POS, and procurement systems handling high-volume transactions.</p>
             </div>
             <div className="bg-card-glass backdrop-blur-md border border-card-glass-border rounded-lg p-4">
               <h4 className="text-primary font-semibold mb-1">Enterprise Application Frameworks</h4>
