@@ -34,9 +34,9 @@ export function Work() {
           {/* Project Card 2 */}
           <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
             <div className="w-full h-48 bg-muted rounded-lg overflow-hidden">
-              <img src="/pos.png" alt="Web-Based POS System" className="w-full h-full object-cover" />
+              <img src="/pos.png" alt="Web-Based POS & Business Management System" className="w-full h-full object-cover" />
             </div>
-            <h3 className="text-xl font-bold text-white">Web-Based POS System</h3>
+            <h3 className="text-xl font-bold text-white">Web-Based POS & Business Management System</h3>
             <p className="text-muted-foreground text-sm">Developed a lightweight, web-based Point of Sale (POS) application using Next.js (Pages Router), React, and JavaScript. Engineered the client-side interface for managing products, cart items, calculating totals, and generating printable receipts.</p>
             <div className="flex flex-wrap gap-2">
               {["Next.js","React","JavaScript","CSS"].map((tag) => (
