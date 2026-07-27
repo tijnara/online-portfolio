@@ -37,7 +37,7 @@ export function Work() {
               <img src="/pos.png" alt="Web-Based POS & Business Management System" className="w-full h-full object-cover" />
             </div>
             <h3 className="text-xl font-bold text-white">Web-Based POS & Business Management System</h3>
-            <p className="text-muted-foreground text-sm">Developed a lightweight, web-based Point of Sale (POS) application using Next.js (Pages Router), React, and JavaScript. Engineered the client-side interface for managing products, cart items, calculating totals, and generating printable receipts.</p>
+            <p className="text-muted-foreground text-sm">Engineered a comprehensive, full-stack enterprise platform using Next.js, Node.js, and MySQL. Designed a multi-module business management dashboard encompassing a high-performance Point of Sale (POS) interface with cart management and printable receipt generation, alongside robust back-office modules for catalog and inventory management, employee salary distribution, debt management, and real-time financial expense tracking.</p>
             <div className="flex flex-wrap gap-2">
               {["Next.js","React","JavaScript","CSS"].map((tag) => (
                   <span key={tag} className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-xs font-semibold">{tag}</span>
