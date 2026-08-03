@@ -10,6 +10,27 @@ export function Work() {
         </div>
         {/* Grid of Solid Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Project Card NEW */}
+          <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
+            <div className="w-full h-48 bg-muted rounded-lg overflow-hidden">
+              <img src="/hotelandresort.png" alt="Full-Stack Hotel and Resort Reservation & Management System" className="w-full h-full object-cover" />
+            </div>
+            <h3 className="text-xl font-bold text-white">Full-Stack Hotel and Resort Reservation & Management System</h3>
+            <p className="text-muted-foreground text-sm">Architected an end-to-end beachfront resort booking platform with Next.js, TypeScript, and Supabase. Features zero-fee local payment collection (GCash/Maya/Bank) with receipt uploads, an automated multi-stage SMTP email engine, and a database-backed administrative portal for payment verification, custom cancellation workflows, and full content customization.</p>
+            <div className="flex flex-wrap gap-2">
+              {["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase", "Nodemailer"].map((tag) => (
+                  <span key={tag} className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-xs font-semibold">{tag}</span>
+              ))}
+            </div>
+            <div className="flex gap-4 mt-auto pt-4">
+              <a href="https://github.com/tijnara/hotel-resort-booking-public" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+                <Github size={16} /> View Repository
+              </a>
+              <span className="text-muted-foreground font-medium flex items-center gap-2">
+                <ExternalLink size={16} /> Live (SOON)
+              </span>
+            </div>
+          </div>
           {/* Project Card 1 */}
           <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
             <div className="w-full h-48 bg-muted rounded-lg overflow-hidden">
