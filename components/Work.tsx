@@ -13,12 +13,12 @@ export function Work() {
           {/* Project Card NEW */}
           <div className="bg-card-solid rounded-lg border border-card-solid-border p-6 flex flex-col gap-4 transition-all hover:border-primary/50">
             <div className="w-full h-48 bg-muted rounded-lg overflow-hidden">
-              <img src="/hotelandresort.png" alt="Full-Stack Hotel and Resort Reservation & Management System" className="w-full h-full object-cover" />
+              <img src="/hotelandresort.png" alt="Full-Stack Hotel & Resort Reservation & Management System" className="w-full h-full object-cover" />
             </div>
-            <h3 className="text-xl font-bold text-white">Full-Stack Hotel and Resort Reservation & Management System</h3>
-            <p className="text-muted-foreground text-sm">Architected an end-to-end beachfront resort booking platform with Next.js, TypeScript, and Supabase. Features zero-fee local payment collection (GCash/Maya/Bank) with receipt uploads, an automated multi-stage SMTP email engine, and a database-backed administrative portal for payment verification, custom cancellation workflows, and full content customization.</p>
+            <h3 className="text-xl font-bold text-white">Full-Stack Hotel & Resort Reservation & Management System</h3>
+            <p className="text-muted-foreground text-sm">Architected an end-to-end beachfront resort platform with Next.js 15, TypeScript, and Supabase. Engineered a Two-Way iCal Synchronization System connecting direct website reservations with major Online Travel Agencies (Airbnb & Booking.com) to eliminate double bookings using dynamic .ics route handlers and automated Vercel Cron background parsing. Features zero-fee local payment collection (GCash/Maya/Bank) with receipt uploads, an automated multi-stage SMTP email engine, and a role-based administrative portal for real-time OTA calendar sync, payment verification, custom cancellation workflows, and site content customization.</p>
             <div className="flex flex-wrap gap-2">
-              {["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase", "Nodemailer"].map((tag) => (
+              {["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Lucide Icons", "Supabase", "Server Actions", "Vercel Cron", "Nodemailer"].map((tag) => (
                   <span key={tag} className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-xs font-semibold">{tag}</span>
               ))}
             </div>
