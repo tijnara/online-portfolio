@@ -26,9 +26,9 @@ export function Work() {
               <a href="https://github.com/tijnara/hotel-resort-booking-public" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
                 <Github size={16} /> View Repository
               </a>
-              <span className="text-muted-foreground font-medium flex items-center gap-2">
-                <ExternalLink size={16} /> Live (SOON)
-              </span>
+              <a href="https://seaview-booking-website.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium flex items-center gap-2 hover:underline">
+                <ExternalLink size={16} /> Live
+              </a>
             </div>
           </div>
           {/* Project Card 1 */}
